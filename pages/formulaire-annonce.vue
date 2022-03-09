@@ -160,7 +160,7 @@
             e.preventDefault();
 
             try {
-                const response = await fetch('http://localhost:1337/api/announcements', {
+                const response = await fetch('https://learn-in-project.herokuapp.com/api/announcements', {
                     method: 'POST',
                     headers: this.headers,
                     body: JSON.stringify(this.modifiedData)
