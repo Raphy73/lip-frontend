@@ -1,0 +1,7 @@
+// Custom Bootstrap variable overrides go first
+$primary: #444BFF;
+$light: #C4C4C4;
+
+// Then include the following
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
